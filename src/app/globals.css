@@ -3,25 +3,55 @@
 @tailwind utilities;
 
 :root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
+  /* Colors */
+
+  --soft-blue: #5468e7;
+  --soft-violet: #c897e4;
+  --dark-blue: #232340;
+  --desatured-blue: #7676b2;
+  --off-white: #f5f5f5;
+  --light-orange: #ffba79;
+
+  /* Typography */
+
+  --h1-desktop: 50px;
+  --line-h1-desktop: 64px;
+  --h1-mobile: 34px;
+  --line-h1-mobile: 42px;
+  --h2: 32px;
+  --line-h2: 40px;
+  --h3: 24px;
+  --line-h3: 30px;
+  --h4: 16px;
+  --line-h4: 26px;
+  --p-desktop: 18px;
+  --line-p-dekstop: 27px;
+  --c-dekstop: 14px;
+  --line-c-dekstop: 23px;
+  --link: 16px;
+  --line-link: 24px;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
-  }
+.mainContainer {
+  max-width: 1160px;
+  margin: 0 auto;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  width: 100%;
+}
+
+.carouselContainer {
+  max-width: 1640px;
+  margin: 0 auto;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  width: 100%;
 }
 
 body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+  background: var(--off-white, #f5f5f5);
+}
+
+path {
+  fill: var(--soft-blue);
 }
