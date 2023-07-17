@@ -1,8 +1,4 @@
-Team App
-
 Team App is a frontend demo developed by canaltun.dev. It is created using NextJS, TailwindCSS, and Vercel CD/CI.
-
-
 
 Getting Started
 
