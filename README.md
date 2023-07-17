@@ -1,12 +1,15 @@
 Team App
+
 Team App is a frontend demo developed by canaltun.dev. It is created using NextJS, TailwindCSS, and Vercel CD/CI.
 
 
 
 Getting Started
+
 To get started with Team App, follow these steps:
 
 Clone the repository
+
 Install dependencies with npm install
 Start the development server with npm run dev
 Contributing
