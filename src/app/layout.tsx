@@ -20,7 +20,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={lexend.className}>
-        <div className="h-screen justify-between flex flex-col">
+        <div className="h-screen justify-between ">
           <Header />
           {children}
           <Footer />

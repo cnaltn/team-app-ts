@@ -60,12 +60,14 @@ const Footer = () => {
       <div className="mainContainer h-max md:h-[500px] flex flex-col pt-20 gap-x-36 gap-y-8">
         <div className="flex flex-col lg:flex-row gap-x-40 gap-y-8 justify-between w-full">
           <div className="flex flex-col  gap-y-[16px]">
-            <Image
-              src="/LightLogo.png"
-              width={138}
-              height={52}
-              alt="footerlogo"
-            ></Image>
+            <Link href="/">
+              <Image
+                src="/LightLogo.png"
+                width={138}
+                height={52}
+                alt="footerlogo"
+              ></Image>
+            </Link>
             <h2 className="text-[--off-white] text-[14px]">
               Collaboration platform for mordern team
             </h2>
@@ -101,13 +103,15 @@ const Footer = () => {
           </p>
           <p className="text-[9px]  md:text-[14px] text-[--off-white] flex items-center gap-x-1">
             <span>
-              <Image
-                alt="copylogo"
-                src="/LightLogo.png"
-                className="pb-2 "
-                width={70}
-                height={10}
-              ></Image>
+              <Link href="/">
+                <Image
+                  alt="copylogo"
+                  src="/LightLogo.png"
+                  className="pb-2 "
+                  width={70}
+                  height={10}
+                ></Image>
+              </Link>
             </span>{" "}
             is a Frontend Project Demo & Developed by{" "}
             <Link

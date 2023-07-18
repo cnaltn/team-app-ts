@@ -47,7 +47,9 @@ const Header = () => {
         className={`mainContainer  w-full flex items-center ${navbarColor}  lg:rounded  justify-between transition-all duration-300 ease-in-out `}
       >
         <div className="relative w-[100px] h-[40px] lg:w-[138px] lg:h-[52px] ">
-          <Image alt="Dark_Logo" fill={true} src={toggleLogo}></Image>
+          <Link href="/">
+            <Image alt="Dark_Logo" fill={true} src={toggleLogo}></Image>
+          </Link>
         </div>
         <div className="hidden lg:flex gap-x-[56px] items-center ">
           {list.map((item) => (
