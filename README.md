@@ -14,3 +14,5 @@ Contributions to Team App are welcome! Please follow the standard GitHub workflo
 License
 Team App is licensed under the MIT license.
 * I took this design from figma, and I used this only for my personal Frontend Project demo. Thanks for the creators.
+
+![team_mock](https://github.com/cnaltn/team-app-ts/assets/88890920/7bdd7a8f-71cc-4458-8c73-ba42e7c88c41)
